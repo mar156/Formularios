@@ -8,49 +8,51 @@
 </head>
 <body>
     <form action="mnvargas.156@gmail.com" method="POST" class="fondo">
-     <div class="formulario">
+     <div class= "borde">
+        <div class="formulario">
         <p>       
             <label for="nombre"> Nombre Completo </label> <br>
-            <input type="text" name="nombre" ><br>
+            <input type="text" name="nombre" placeholder="Juan Pérez" class="entrada"><br>
         </p>
         <p>
             <label for="alias"> Usuario</label><br>
-            <input type="text" name="alias" > <br>
+            <input type="text" name="alias" placeholder="Juanito24" class="entrada"> <br>
         </p>
         <p>
             <label for="contraseña">Contraseña</label> <br>
-            <input type="password" name="contraseña" > <br>
+            <input type="password" name="contraseña" placeholder="Contraseña" class="entrada"> <br>
         </p>
         <p>
             <label for="confirmacion"> Repita su contraseña</label><br>
-            <input type="password" name="confirmacion" ><br>
+            <input type="password" name="confirmacion" placeholder="Contraseña" class="entrada"><br>
         </p>
         <p>
             <label for="email"> e-mail</label><br>
-            <input type="email" name="email" ><br>
+            <input type="email" name="email" placeholder="usuario@gmail.com" class="entrada" ><br>
         </p>
         <p>
            <label for="nro"> Cel</label><br>
-           <input type="email" name="nro" ><br>
+           <input type="tel" name="nro" placeholder="011 49521721" class="entrada"><br>
         </p>
         <p> 
            <label for="categorias">¿Cuáles son tus intereses?</label> <br>
-           <input type="checkbox" name="categorias" value="BG"> Biología
+           <input type="checkbox" name="categorias" value="BG" class="firstColomn"> Biología
            <input type="checkbox" name="categorias" value="MD"> Medicina
            <input type="checkbox" name="categorias" value="FC"> Física <br>
-           <input type="checkbox" name="categorias" value="TG"> Tecnología
-           <input type="checkbox" name="categorias" value="AR"> Arte
-           <input type="checkbox" name="categorias" value="HS"> Historia <br>
-           <input type="checkbox" name="categorias" value="GG"> Geografía
+           <input type="checkbox" name="categorias" value="GG" class="firstColomn"> Geografía
            <input type="checkbox" name="categorias" value="EC"> Economía 
-           <input type="checkbox" name="categorias" value="MT"> Matemáticas<br>
+           <input type="checkbox" name="categorias" value="HS"> Historia <br>
+           <input type="checkbox" name="categorias" value="TG" class="firstColomn"> Tecnología
+           <input type="checkbox" name="categorias" value="AR"> Arte
+           <input type="checkbox" name="categorias" value="MT"> Matemática<br>
         </p>
         <p>
         <label for="tipoUsuario">Me interesa poder escribir artículos</label>
         <input type="radio" name="tipoUsuario" value="S"> Si
         <input type="radio" name="tipoUsuario" value="N"> No <br>
         </p>
-        <button type="submit">Send</button>
+        <button type="submit" class="btn">Send</button>
+    </div>
     </div>
     </form>
     

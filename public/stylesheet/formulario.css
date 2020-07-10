@@ -1,12 +1,49 @@
 body {
     background-color: rgb(199, 210, 247);
 }
-.formulario {
-    background-color: rgb(183, 64, 243);
-    margin:50px;
-    text-align: center;
-    margin:400px;
-    margin-top: 75px;
-    margin-bottom: 100px;
-    padding: 30px;
+.borde {
+    background-color:rgb(188, 126, 221) ;
+    margin: 350px;
+    padding:30px;
+    margin-top:75px ;
+    margin-bottom:100px;
+    border-radius: 6px;
 }
+.formulario {
+    background-color: rgb(71, 31, 92);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+    color:white;
+    border-radius: 8px; 
+}
+.btn {
+    font-size: 30px;
+    background: #faa8e0;
+    background-image: -webkit-linear-gradient(top, #faa8e0, #649ec2);
+    background-image: -moz-linear-gradient(top, #faa8e0, #649ec2);
+    background-image: -ms-linear-gradient(top, #faa8e0, #649ec2);
+    background-image: -o-linear-gradient(top, #faa8e0, #649ec2);
+    background-image: linear-gradient(to bottom, #faa8e0, #649ec2);
+    border-radius: 8px;
+    border: 2px solid #6e4464;
+
+ }
+
+ .entrada{
+     text-align: center;
+     text-decoration-style: italic;
+     text-decoration: rgb(194, 189, 189);
+ }
+ .btn:hover {
+    background: #649ec2;
+    background-image: -webkit-linear-gradient(top, #649ec2, #faa8e0);
+    background-image: -moz-linear-gradient(top, #649ec2, #faa8e0);
+    background-image: -ms-linear-gradient(top, #649ec2, #faa8e0);
+    background-image: -o-linear-gradient(top, #649ec2, #faa8e0);
+    background-image: linear-gradient(to bottom, #649ec2, #faa8e0);
+    text-decoration: none;
+  }
